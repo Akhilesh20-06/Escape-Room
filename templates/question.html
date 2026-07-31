@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Escape Room Challenge</title>
+   
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="topbar">
+
+        <h1>SECURITY AUTHENTICATION</h1>
+         <div class="player-info">
+
+    <strong>Name:</strong> {{ username }}
+
+    &nbsp;&nbsp;&nbsp;
+
+    <strong>Department:</strong> {{ department }}
+
+</div>
+
+        <div class="info">
+
+            <span>Question {{ question_number }} / {{ total_questions }}</span>
+
+            <span>
+                Attempts:
+                {% for i in range(attempts) %}
+                    ❤️
+                {% endfor %}
+            </span>
+
+        </div>
+
+    </div>
+
+    <div class="progress">
+
+        <div class="progress-bar"
+        style="width: {{ (question_number / total_questions) * 100 }}%;"></div>
+
+    </div>
+
+    <div class="question">
+        <h2>{{ question["question"] }}</h2>
+    </div>
+
+    {% if message %}
+        <div class="wrong">
+            {{ message }}
+        </div>
+    {% endif %}
+
+    <form method="POST">
+
+        {% for option in question["options"] %}
+
+        <label class="option">
+
+            <input
+            type="radio"
+            name="option"
+            value="{{ loop.index0 }}"
+            required>
+
+            {{ option }}
+
+        </label>
+
+        {% endfor %}
+
+        <button type="submit">
+
+            VERIFY ACCESS
+
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

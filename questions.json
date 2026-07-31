@@ -1,0 +1,154 @@
+[
+    {
+        "question": "1. Which of these best describes “phishing”?",
+        "options": [
+            "A) Fake messages used to steal private info",
+            "B) Overloading a server with traffic until it crashes",
+            "C) Exploiting a software bug to gain access",
+            "D) Secretly intercepting network packets"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "2. What does the term “malware” mean?",
+        "options": [
+            "A) Mail-based software",
+            "B) Manual software",
+            "C) Management software",
+            "D) Malicious software"
+        ],
+        "answer": 3
+    },
+    {
+        "question":"3. What is the primary purpose of antivirus software?",
+        "options":[
+            "A) Detect, prevent, and remove malicious software",
+            "B) Monitor network bandwidth usage",
+            "C) Manage user account permissions",
+            "D) Encrypt an entire hard drive"
+        ],
+        "answer":0
+    },
+    {
+        "question": "4. Why does your phone or computer constantly ask you to install software updates?",
+        "options":[
+            "To make your device heavier",
+            "To fix security weaknesses and protect against new viruses",
+            "To randomly delete your saved photos",
+            "To drain your battery faster"
+        ],
+        "answer":1
+    },
+    {
+        "question":"5. Two-Factor Authentication (2FA) adds security by requiring: ",
+        "options":[
+            "A) Two different passwords entered together",
+            "B) Logging in twice with the same password",
+            "C) Password plus a second verification step",
+            "D) Two different usernames"
+        ],
+        "answer":2
+    },
+    {
+        "question":"6. What does 'Social Engineering' mean in cybersecurity?",
+        "options":[
+            "A) Building social media apps",
+            "B) Manipulating people",
+            "C) Repairing broken computers",
+            "D) Writing blog posts"
+        ],
+        "answer":1
+    },
+    {
+        "question":"7. What is the main function of a firewall?",
+        "options" : [
+            "A) Detects viruses already on a system",
+            "C) Encrypts stored data on disk",
+            "B) Automatically backs up files",
+            "D) Monitors network traffic"
+        ],
+
+        "answer":3
+    },
+    {
+        "question":"8. What is the Dail Number for Cyber Cell?",
+        "options":[
+            "A) 1933",
+            "B) 1903",
+            "C) 1930",
+            "D) 1913"
+        ],
+        "answer":2
+    },
+    {
+        "question":"9. Is it safe to log into your bank account while connected to the free Wi-Fi at a local coffee shop?",
+        "options":[
+            "A) No, public Wi-Fi can be easily intercepted by hackers watching the network",
+            "B) Yes, free Wi-Fi is always safe",
+            "C) Yes, but only if you buy something from the shop first",
+            "D) Yes, as long as you type your password really fast"
+        ],
+        "answer":0
+    },
+    {
+        "question":"10. A friend messages you a link on social media with the text, **Is this a video of you?!?** What is the safest response?",
+        "options":[
+            "A) Click it immediately out of curiosity",
+            "B) Ask your friend in a separate message if they actually sent the link before clicking it",
+            "C) Share the link on your own page",
+            "D) Download the file directly to your desktop"
+        ],
+        "answer":1
+    },
+    {
+        "question":"11. What does locking your computer screen (Win + L or Cmd + Ctrl + Q) do when you step away from your desk?",
+        "options":[
+            "A) Locks physical access to your device",
+            "B) Turns off the computer completely", 
+            "C) Erases all your open work",
+            "D) Sends an email to your administrator"
+        ],
+        "answer":0
+    },
+    {
+        "question":"12. When shopping online, what does the little padlock icon or the *s* in *https://*' in the web address bar mean?",
+        "options":[
+            "A) The website offers super fast shipping",
+            "B) The items on the website are currently on sale",
+            "C) The website is 100% safe from all hackers forever",
+            "D) The connection between your browser and the website is secure and encrypted"
+        ],
+        "answer":3
+    },
+    {
+        "question":"13. You get a text from a courier asking for a small fee to reschedule a missed package delivery via a link, but you aren't expecting anything. What do you do?",
+        "options":[
+            "A) Pay the fee just in case it's a gift.",
+            "B) Text back to ask what the package is.",
+            "C) Call the phone number the text originated from.",
+            "D) Delete the text without clicking the link."
+        ],
+        "answer":3
+    },
+    {
+        "question":"14. You see a social media ad for an expensive gadget at 80% off. The website URL is slightly misspelled. What is this?",
+        "options":[
+            "A) A legitimate flash sale.",
+            "B) A fake website designed to steal your payment info.",
+            "C) A lucky pricing error.",
+            "D) A wholesale distributor clearing out inventory."
+        ],
+        "answer":1
+    },
+    {
+        "question":"15. You see a post promising a free $500 shopping gift card if you click a link and enter your name, address, and phone number. What is it?",
+        "options":[
+            "A) A lucky giveaway.",
+            "B) A new way companies pay for ads.",
+            "C) A trick to steal and sell your personal information.",
+            "D) A reward for being a loyal user."
+        ],
+        "answer":2
+    }
+    
+]

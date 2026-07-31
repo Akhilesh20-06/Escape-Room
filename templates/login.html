@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Escape Room Registration</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Cyber Escape Room</h1>
+
+    <p class="subtitle">
+        Please enter your details before starting the challenge.
+    </p>
+
+    <form action="/login" method="POST">
+
+        <label>Participant Name</label>
+
+        <input
+            type="text"
+            name="username"
+            placeholder="Enter your name"
+            required>
+
+        <label>Department</label>
+
+        <input
+            type="text"
+            name="department"
+            placeholder="Enter your department"
+            required>
+
+        <button type="submit">
+            START CHALLENGE
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>

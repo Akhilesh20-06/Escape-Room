@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#0d1117;
+    color:white;
+    margin:0;
+    padding:0;
+    width:100%;
+    min-height:100vh;
+}
+
+/* Main Container */
+
+.container{
+
+    width:100%;
+    min-height:100vh;
+
+    padding:60px 80px;
+
+    background:#0d1117;
+
+}
+
+/* Top */
+
+.topbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    flex-wrap:wrap;
+
+}
+
+h1{
+
+    color:#00ffcc;
+
+    font-size:45px;
+
+}
+
+.info{
+
+    text-align:right;
+
+    font-size:22px;
+
+}
+
+.info span{
+
+    display:block;
+
+    margin:8px 0;
+
+}
+
+/* Progress Bar */
+
+.progress{
+
+    width:100%;
+
+    height:12px;
+
+    background:#30363d;
+
+    border-radius:20px;
+
+    margin:35px 0;
+
+}
+
+.progress-bar{
+
+    height:100%;
+
+    background:#00ffcc;
+
+    border-radius:20px;
+
+}
+
+/* Question */
+
+.question{
+
+    font-size:38px;
+
+    margin-bottom:40px;
+
+    line-height:1.5;
+
+    font-weight:bold;
+
+}
+
+/* Options */
+
+.option{
+
+    display:flex;
+
+    align-items:center;
+
+    width:100%;
+
+    background:#21262d;
+
+    padding:22px;
+
+    margin:18px 0;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+    font-size:24px;
+
+}
+
+.option:hover{
+
+    background:#00ffcc;
+
+    color:black;
+
+}
+
+.option input{
+
+    margin-right:18px;
+
+    transform:scale(1.4);
+
+}
+
+/* Button */
+
+button{
+
+    display:block;
+
+    margin:40px auto 0;
+
+    width:300px;
+
+    height:60px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#00ffcc;
+
+    color:black;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+button:hover{
+
+    background:white;
+
+    transform:scale(1.05);
+
+}
+
+/* Wrong Answer */
+
+.wrong{
+
+    color:#ff5555;
+
+    font-size:22px;
+
+    margin-bottom:20px;
+
+}
+
+/* Success Code */
+
+.code{
+
+    text-align:center;
+
+    font-size:45px;
+
+    color:#00ffcc;
+
+    margin:40px 0;
+
+    letter-spacing:6px;
+
+    font-weight:bold;
+
+}
+
+/* Game Over */
+
+.gameover{
+
+    text-align:center;
+
+    color:#ff4444;
+
+    font-size:55px;
+
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.container{
+
+padding:25px;
+
+}
+
+.topbar{
+
+flex-direction:column;
+
+align-items:flex-start;
+
+}
+
+.info{
+
+text-align:left;
+
+margin-top:15px;
+
+}
+
+.question{
+
+font-size:28px;
+
+}
+
+.option{
+
+font-size:18px;
+
+}
+
+button{
+
+width:100%;
+
+}
+
+}
