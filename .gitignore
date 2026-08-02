@@ -1,8 +1,8 @@
 .env
+credentials.json
 participants.csv
 participants.db
 __pycache__/
 *.pyc
 .venv/
 venv/
-env/ss
